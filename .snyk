@@ -1,8 +1,41 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:tunnel-agent:20170305':
     - phantomjs > request > tunnel-agent:
         patched: '2018-06-26T08:22:57.465Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - connect-mongo > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - acl > async > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - mongoose > async > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - acl > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
+    - phantomjs > request > form-data > async > lodash:
+        patched: '2019-07-03T22:33:55.153Z'
